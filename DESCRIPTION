@@ -1,0 +1,12 @@
+Package: proteusTMT
+Type: Package
+Title: Example TMT data set for proteus package
+Version: 0.1.0
+Depends: R (>= 2.10)
+Author: Marek Gierlinski
+Maintainer: Marek Gierlinski <M.Gierlinski@dundee.ac.uk>
+Description: Example unlabelled data set for proteus package.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
