@@ -11,12 +11,16 @@
 #'   \item{\code{pepdat}}{Peptide data (\code{proteusData} object)}
 #'   \item{\code{prodat}}{Protein data (\code{proteusData} object)}
 #' }
+#' This package also contains the full original evidence file and formatted metadata file (see examples below).
 #'
 #' @examples
 #' data(proteusTMT)
 #' meta
 #' head(pepdat$tab)
 #' head(prodat$tab)
+#'
+#' evidenceFile <- system.file("extdata", "evidence.txt.gz", package="proteusTMT")
+#' metadataFile <- system.file("extdata", "metadata.txt", package="proteusTMT")
 #"proteusTMT"
 NULL
 

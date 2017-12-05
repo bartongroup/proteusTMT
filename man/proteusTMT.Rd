@@ -10,7 +10,8 @@
   \item{\code{meta}}{Metadata (data frame)}
   \item{\code{pepdat}}{Peptide data (\code{proteusData} object)}
   \item{\code{prodat}}{Protein data (\code{proteusData} object)}
-}}
+}
+This package also contains the full original evidence file and formatted metadata file (see examples below).}
 \description{
 Example data set for \code{proteus} package. It comes from a TMT MS/MS experiment in two conditions
 and three replicates each.
@@ -20,4 +21,7 @@ data(proteusTMT)
 meta
 head(pepdat$tab)
 head(prodat$tab)
+
+evidenceFile <- system.file("extdata", "evidence.txt.gz", package="proteusTMT")
+metadataFile <- system.file("extdata", "metadata.txt", package="proteusTMT")
 }
