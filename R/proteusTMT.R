@@ -2,7 +2,7 @@
 #' @name proteusTMT
 #' @docType data
 #' @description Example data set for \code{proteus} package. It comes from a TMT MS/MS experiment in two conditions
-#' and three replicates each.
+#' and three replicates each. See https://www.ebi.ac.uk/pride/archive/projects/PXD005968.
 #'
 #' @format Four objects from different stages of data processing:
 #' \describe{
@@ -14,6 +14,7 @@
 #' This package also contains the full original evidence file and formatted metadata file (see examples below).
 #'
 #' @examples
+#' library(proteusTMT)
 #' data(proteusTMT)
 #' meta
 #' head(pepdat$tab)
