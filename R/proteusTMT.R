@@ -1,8 +1,10 @@
 #' @title Proteus example TMT data
 #' @name proteusTMT
 #' @docType data
-#' @description Example data set for \code{proteus} package. It comes from a TMT MS/MS experiment in two conditions
-#' and three replicates each. See https://www.ebi.ac.uk/pride/archive/projects/PXD005968.
+#' @description Example data set for \code{proteus} package. It comes from a TMT MS/MS experiment in
+#' ten time-points and three replicates each.
+#' See \href{http://www.mcponline.org/content/17/6/1184}{Crozier at al. 2018},
+#' \href{https://www.ebi.ac.uk/pride/archive/projects/PXD008741}{PRIDE PXD008741}.
 #'
 #' @format Four objects from different stages of data processing:
 #' \describe{
@@ -11,7 +13,7 @@
 #'   \item{\code{pepdat}}{Peptide data (\code{proteusData} object)}
 #'   \item{\code{prodat}}{Protein data (\code{proteusData} object)}
 #' }
-#' This package also contains the full original evidence file and formatted metadata file (see examples below).
+#' This package also contains a formatted metadata file (see examples below).
 #'
 #' @examples
 #' library(proteusTMT)
@@ -20,14 +22,13 @@
 #' head(pepdat$tab)
 #' head(prodat$tab)
 #'
-#' evidenceFile <- system.file("extdata", "evidence.txt.gz", package="proteusTMT")
 #' metadataFile <- system.file("extdata", "metadata.txt", package="proteusTMT")
 #"proteusTMT"
 NULL
 
 #' Proteomics metadata
 #'
-#' Metadata describing a TMT proteomics experiment in 5 conditions with 3 replicates each.
+#' Metadata describing a TMT proteomics experiment in 9 time points in 3 replicates each.
 #'
 #' @docType data
 #' @name meta
@@ -36,7 +37,7 @@ NULL
 
 #' Evidence data
 #'
-#' Evidence data from a TMT proteomics experiment in 5 conditions, 3 replicates each.
+#' Evidence data from a TMT proteomics experiment in 9 time points in 3 replicates each.
 #'
 #' @docType data
 #' @name evi
