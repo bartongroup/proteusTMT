@@ -11,10 +11,12 @@
   \item{\code{pepdat}}{Peptide data (\code{proteusData} object)}
   \item{\code{prodat}}{Protein data (\code{proteusData} object)}
 }
-This package also contains the full original evidence file and formatted metadata file (see examples below).}
+This package also contains a formatted metadata file (see examples below).}
 \description{
-Example data set for \code{proteus} package. It comes from a TMT MS/MS experiment in two conditions
-and three replicates each. See https://www.ebi.ac.uk/pride/archive/projects/PXD005968.
+Example data set for \code{proteus} package. It comes from a TMT MS/MS experiment in
+ten time-points and three replicates each.
+See \href{http://www.mcponline.org/content/17/6/1184}{Crozier at al. 2018},
+\href{https://www.ebi.ac.uk/pride/archive/projects/PXD008741}{PRIDE PXD008741}.
 }
 \examples{
 library(proteusTMT)
@@ -23,6 +25,5 @@ meta
 head(pepdat$tab)
 head(prodat$tab)
 
-evidenceFile <- system.file("extdata", "evidence.txt.gz", package="proteusTMT")
 metadataFile <- system.file("extdata", "metadata.txt", package="proteusTMT")
 }
