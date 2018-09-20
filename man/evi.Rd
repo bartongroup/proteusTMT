@@ -6,5 +6,5 @@
 \title{Evidence data}
 \format{A data frame with 601,792 rows and 19 columns}
 \description{
-Evidence data from a TMT proteomics experiment in 5 conditions, 3 replicates each.
+Evidence data from a TMT proteomics experiment in 9 time points in 3 replicates each.
 }

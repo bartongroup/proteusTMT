@@ -6,5 +6,5 @@
 \title{Proteomics metadata}
 \format{A \code{data.frame} with 30 rows and 5 columns (experiment, measure, sample, replicate).}
 \description{
-Metadata describing a TMT proteomics experiment in 5 conditions with 3 replicates each.
+Metadata describing a TMT proteomics experiment in 9 time points in 3 replicates each.
 }
